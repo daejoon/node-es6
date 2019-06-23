@@ -2,7 +2,7 @@
 
 > [Browser ES6 Support](https://kangax.github.io/compat-table/es6/)를 살펴보면 Node >= 6.5 이상을 사용하면 97% 이상의 ES6를 지원한다.
 > 하지만 아직도 Node에서는 import를 정식으로 지원하지 않아서 이 부분을 사용하려면 [Babel](https://babeljs.io/)을 이용해야 한다.
-> 패키지 시스템도 ES6를 사용하기 위한 프로젝트 이다.
+> 이 프로젝트는 ES6의 패키지 시스템을 사용하기 위한 프로젝트 이다.
 
 ## 구조
 ```
@@ -11,10 +11,6 @@ node-es6
 ├── .gitignore
 ├── README.md
 ├── dist
-│   ├── index.js
-│   ├── index.js.map
-│   ├── message.js
-│   └── message.js.map
 ├── package-lock.json
 ├── package.json
 ├── src
